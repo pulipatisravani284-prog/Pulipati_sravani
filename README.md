@@ -1,6 +1,6 @@
-PWM Generator
+**PWM Generator**
 
-What is PWM?
+**What is PWM?**
 
 Pulse Width Modulation is a technique of controlling the average voltage. It is a stream of voltage pulses that reduces the electric power supplied by the electrical signal. It is a square wave signal, which is represented as:
 
@@ -14,7 +14,6 @@ HIGH (LOGIC 1).
 LOW (LOGIC 0). The duty cycle of the rectangular pulse is shown as follows:
 
 <img width="293" height="114" alt="image" src="https://github.com/user-attachments/assets/92f759ff-52bd-4ce9-abd6-70e03d455c55" />
-
 
 where,
 
@@ -31,7 +30,7 @@ For example, let us assume that our output signal is having a timeperiod of 20ns
 <img width="789" height="795" alt="image" src="https://github.com/user-attachments/assets/0e49eebd-227a-46fa-8d79-147a4f7731c6" />
 
 
-Applications
+**Applications**
 Voltage regulation
 Audio signal generation
 Pump Hydraulics
@@ -39,11 +38,14 @@ Servo motor
 CPU fan speed control
 Encoding in Telecommunication
 Motor speed controller
-PWM Generator using Verilog-HDL
+
+**PWM Generator using Verilog-HDL**
+
 PWM generator was designed in Verilog-HDL using Xilinx Vivado 2022.2. There are few changes that has to be done in the Simulation time.
 
-How to create a project in Xilinx Vivado 2022.2?
-Step 1: Open Vivado 2022.2 on your system
+**How to create a project in Xilinx Vivado 2022.2?**
+
+**Step 1:** Open Vivado 2022.2 on your system
 
 
 
@@ -51,13 +53,14 @@ Step 1: Open Vivado 2022.2 on your system
 <img width="292" height="405" alt="image" src="https://github.com/user-attachments/assets/086817c5-0ddf-4543-a081-a61a906df401" />
 
 
-Step 2: Create a new project as follows: create project --> Next --> Project name: ____ --> Next --> check RTL Project --> Next --> click on Create File --> a dialog bx pops up prompting you to give the File name: ______ and click on Next --> Next.
+**Step 2:** Create a new project as follows: create project --> Next --> Project name: ____ --> Next --> check RTL Project --> Next --> click on Create File --> a dialog bx pops up prompting you to give the File name: ______ and click on Next --> Next.
 
-Step 3: Select an FPGA board Category: General Purpose --> Family: Atrix-7 --> Package: csg324 --> Speed: -1 --> select xc7a100tcsg324-1 --> Next --> Finish.
+**Step 3:** Select an FPGA board Category: General Purpose --> Family: Atrix-7 --> Package: csg324 --> Speed: -1 --> select xc7a100tcsg324-1 --> Next --> Finish.
 
-Step 4: I/O Constraints (optional) can proceed even without giving the constraints just by clicking on Finish/Next as it can be defined in the module later.
+**Step :**I/O Constraints (optional) can proceed even without giving the constraints just by clicking on Finish/Next as it can be defined in the module later.
 
-How to change Simulation time?
+**How to change Simulation time?**
+
 As soon as you open your project click on settings icon provided in the tool bar as shown below.
 
 
@@ -72,25 +75,28 @@ This will pop up another Dialog box as shown below.
 <img width="1300" height="1080" alt="image" src="https://github.com/user-attachments/assets/38b0d7e3-f5b1-4154-9da5-f80d8c8268fa" />
 
 
-Follow the numbers (from 1 - 4)
+**Follow the numbers (from 1 - 4)**
+
 The simulation time will be set to 1000ns by default. It can be changed according to our requirements.
 
 Now copy paste the codes Variable_PWM.v and Variable_PWM_tb.v file one below the other and click on Run Simulation --> Run Behavioral Simulation to see the output waveform.
-Schematic
+
+**Schematic**
 
 
 
 <img width="1576" height="841" alt="image" src="https://github.com/user-attachments/assets/04d9f907-ef09-4995-9661-9147eebb844c" />
 
 
-Waveform
+
+**Waveform**
 
 
 <img width="1576" height="840" alt="image" src="https://github.com/user-attachments/assets/0d536863-841b-4e54-ab1b-407ec223e4b5" />
 
 
 
-Useful links
+**Useful links**
 https://www.javatpoint.com/arduino-pwm
 https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2022-2.html
 https://www.chipverify.com/verilog/verilog-tutorial
