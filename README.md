@@ -1,5 +1,6 @@
 PWM Generator
 What is PWM?
+
 Pulse Width Modulation is a technique of controlling the average voltage. It is a stream of voltage pulses that reduces the electric power supplied by the electrical signal. It is a square wave signal, which is represented as:
 
 
@@ -83,7 +84,9 @@ Schematic
 
 Waveform
 
-<img width="1576" height="841" alt="image" src="https://github.com/user-attachments/assets/f5ff2869-1069-4441-8092-69feddfe9594" />
+
+<img width="1576" height="840" alt="image" src="https://github.com/user-attachments/assets/0d536863-841b-4e54-ab1b-407ec223e4b5" />
+
 
 
 Useful links
