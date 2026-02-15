@@ -1,4 +1,4 @@
-<img width="292" height="405" alt="image" src="https://github.com/user-attachments/assets/91b869f1-c35e-4c94-8c12-484eba998cb3" />PWM Generator
+PWM Generator
 What is PWM?
 Pulse Width Modulation is a technique of controlling the average voltage. It is a stream of voltage pulses that reduces the electric power supplied by the electrical signal. It is a square wave signal, which is represented as:
 
