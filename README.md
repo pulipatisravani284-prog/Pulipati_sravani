@@ -31,12 +31,19 @@ For example, let us assume that our output signal is having a timeperiod of 20ns
 
 
 **Applications**
+
 Voltage regulation
+
 Audio signal generation
+
 Pump Hydraulics
+
 Servo motor
+
 CPU fan speed control
+
 Encoding in Telecommunication
+
 Motor speed controller
 
 **PWM Generator using Verilog-HDL**
