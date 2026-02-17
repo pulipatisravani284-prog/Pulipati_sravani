@@ -32,19 +32,19 @@ For example, let us assume that our output signal is having a timeperiod of 20ns
 
 **Applications**
 
-Voltage regulation
+1. Voltage regulation
 
-Audio signal generation
+2. Audio signal generation
 
-Pump Hydraulics
+3. Pump Hydraulics
 
-Servo motor
+4. Servo motor
 
-CPU fan speed control
+5. CPU fan speed control
 
-Encoding in Telecommunication
+6. Encoding in Telecommunication
 
-Motor speed controller
+7. Motor speed controller
 
 **PWM Generator using Verilog-HDL**
 
