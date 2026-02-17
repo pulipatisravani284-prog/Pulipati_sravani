@@ -2,7 +2,7 @@
 
 **What is PWM?**
 
-Pulse Width Modulation is a technique of controlling the average voltage. It is a stream of voltage pulses that reduces the electric power supplied by the electrical signal. It is a square wave signal, which is represented as:
+**Pulse Width Modulation** is a technique of controlling the average voltage. It is a stream of voltage pulses that reduces the electric power supplied by the electrical signal. It is a square wave signal, which is represented as:
 
 
 <img width="636" height="361" alt="image" src="https://github.com/user-attachments/assets/590a4340-e256-41d2-b7e4-97dda70d2170" />
